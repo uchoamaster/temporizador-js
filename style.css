@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .cont-dias-horas {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .cont-dias-horas div {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #333;
+    border: solid #777 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Helvetica;
+  }
+  
+  #dias {
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 500;
+  }
